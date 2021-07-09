@@ -1,0 +1,15 @@
+exportPattern("^[[:alpha:]]+")
+##import
+import(vegan)
+import(shiny, except=c(dataTableOutput,renderDataTable))
+import(DT)
+import(shinycssloaders)
+
+#importFrom
+importFrom("graphics", "hist", "abline", "legend", "lines", "par", "plot")
+importFrom("stats", "approx")
+importFrom("utils", "tail")
+import(shinybusy)
+importFrom("graphics", "axis", "boxplot", "stripchart")
+importFrom("stats", "median")
+importFrom("grDevices", "recordPlot")
