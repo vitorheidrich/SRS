@@ -11,6 +11,14 @@ Install the latest version from CRAN by running:
 ```R
 install.packages("SRS")
 ```
+## Using
+
+The SRS R package features three R functions:
+* `SRS()` - performs SRS normalization at a user-defined number of reads per sample (C<sub>min</sub>)
+* `SRScurve()` -  draws alpha diversity rarefaction curves for SRS-normalized data (instead of rarefied data)
+* `SRS.shiny.app()` - generates a visualization of retained samples, summary statistics, SRS curves, and an interactive table in response to varying C<sub>min</sub>
+
+Refer to the SRS [reference manual](https://cran.r-project.org/web/packages/SRS/SRS.pdf) for usage details.
 
 ##### Citation
 If you use SRS in your research paper, please cite as:
