@@ -1,0 +1,17 @@
+citHeader("To cite SRS in publications use:")
+
+citEntry(entry="Article",
+         title = "Improved normalization of species count data in ecology by scaling with ranked subsampling (SRS): application to microbial communities",
+         author = personList(as.person("L. Beule"), 
+                             as.person("P. Karlovsky")),
+	       journal = "PeerJ",
+	       volume = 8,
+	       pages = "e9593",
+         year         = 2020,
+         url          = "https://doi.org/10.7717/peerj.9593",
+         
+         textVersion = 
+         paste("Beule, L. & Karlovsky, P. (2020)", 
+               "Improved normalization of species count data in ecology by scaling with ranked subsampling (SRS): application to microbial communities.",
+               "PeerJ,", "8,", "e9593.", "https://doi.org/10.7717/peerj.9593.")
+)
